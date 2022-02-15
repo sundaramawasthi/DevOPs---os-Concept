@@ -47,19 +47,26 @@
 
 ## Operating System
 
-But first, let’s define what an operating system is. An Operating System (OS) is a collection of software that manages computer hardware and provides services for programs. Specifically, it hides hardware complexity, manages computational resources, and provides isolation and protection. Most importantly, it directly has privilege access to the underlying hardware. Major components of an OS are file system, scheduler, and device driver. You probably have used both Desktop (Windows, Mac, Linux) and Embedded (Android, iOS) operating systems before.
+let’s define what an operating system is. An Operating System (OS) is a collection of software that manages computer hardware and provides services for programs. Specifically, it hides hardware complexity, manages computational resources, and provides isolation and protection. Most importantly, it directly has privilege access to the underlying hardware. Major components of an OS are file system, scheduler, and device driver. You probably have used both Desktop (Windows, Mac, Linux).
 
-There are 3 key elements of an operating system, which are: (1) Abstractions (process, thread, file, socket, memory), (2) Mechanisms (create, schedule, open, write, allocate), and (3) Policies (LRU, EDF)
+There are 3 key elements of an operating system, which are:
+(1) Abstractions (process, thread, file, socket, memory),
+(2) Mechanisms (create, schedule, open, write, allocate),
+(3) Policies (LRU, EDF)
 
-There are 2 operating system design principles, which are: (1) Separation of mechanism and policy by implementing flexible mechanisms to support policies, and (2) Optimize for common case: Where will the OS be used? What will the user want to execute on that machine? What are the workload requirements?
+There are 2 operating system design principles, which are:
+(1) Separation of mechanism and policy by implementing flexible mechanisms to support policies
+(2) Optimize for common case: Where will the OS be used? What will the user want to execute on that machine? What are the workload requirements?
 
-The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, where the entire OS is working in kernel space and is alone in supervisor mode; (2) Modular OS, in which some part of the system core will be located in independent files called modules that can be added to the system at run time; and (3) Micro OS, where the kernel is broken down into separate processes, known as servers. Some of the servers run in kernel space and some run in user-space.
+The 3 types of Operating Systems commonly used nowadays are:
+(1) Monolithic OS, where the entire OS is working in kernel space and is alone in supervisor mode; (2) Modular OS, in which some part of the system core will be located in independent files called modules that can be added to the system at run time;
+(3) Micro OS, where the kernel is broken down into separate processes, known as servers. Some of the servers run in kernel space and some run in user-space.
 
 ---
 
 ## Boot Process
 
-![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/linux-boot_1.gif)
+![alt text](https://github.com/sundaramawasthi/DevOPs---os-Concept/blob/main/boot.png)
 
 - When a system is first booted, or is reset, the processor executes code at a well-known location. In a personal computer (PC), this location is in the basic input/output system (BIOS), which is stored in flash memory on the motherboard. The central processing unit (CPU) in an embedded system invokes the reset vector to start a program at a known address in flash/ROM. In either case, the result is the same. Because PCs offer so much flexibility, the BIOS must determine which devices are candidates for boot.
 

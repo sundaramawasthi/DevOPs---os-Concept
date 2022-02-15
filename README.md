@@ -41,7 +41,6 @@
 - [Cloud Computing](#cloud-computing)
   - [concepts](#concepts)
   - [Resources:](#resources-10)
-- [References:](#references)
 
 ---
 
@@ -521,3 +520,5 @@ The 3 types of Operating Systems commonly used nowadays are:
   - Rapid elasticity : Successful resource allocation requires elasticity. Resources must be assigned accurately and quickly with the ability to absorb significant increases and decreases in demand without service interruption or quality degradation.
 
   - Measured service : Following the utility model, cloud computing services are measured and metered. This measurement allows the service provider (and consumer) to track usage and gauge costs according to their demand on resources.
+
+    THANKYOU FOR READING ...

@@ -129,7 +129,11 @@ The 3 types of Operating Systems commonly used nowadays are:
 
 ### Concepts
 
-- When a program is loaded into the memory and it becomes a process, it can be divided into four sections ─ stack, heap, text and data.
+- When a program is loaded into the memory and it becomes a process, it can be divided into four sections ─
+  stack,
+  heap,
+  text
+  data.
 
 - root and chroot
 

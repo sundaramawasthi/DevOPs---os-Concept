@@ -2,7 +2,7 @@
 
 ---
 
-- [LINUX Command for DevOPS](#linux) . -[Directory operation](#directory) -[File operation](#File) -[File/Directory permissions](#Permissions)
+- [LINUX Command for DevOPS](#linux) -[Directory operation](#directory) -[File operation](#File) -[File/Directory permissions](#Permissions)
 
 - [OS Concepts for DevOps](#os-concepts-for-devops)
 - [Operating System](#operating-system)
@@ -170,6 +170,9 @@ How to update the read,write & execute permissions for a file/dir
     	chmod 777 file/dir -- rwx for root, rwx for owner, rwx for others
     	chmod 764 file/dir -- rwx for root, rw for owner, r for others
     	chmod 755 fire/dir -- rwx for root, rw for owner, rw for others
+
+##REFEREnCE
+![alt text](https://www.youtube.com/watch?v=iwolPf6kN-k&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=4&ab_channel=KunalKushwaha)
 
 ## Operating System
 

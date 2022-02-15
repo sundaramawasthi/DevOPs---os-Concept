@@ -74,6 +74,8 @@
 
     mkdir -p folder/subfolder/subfolder2 --> create parent and child directory
 
+---
+
 ##File
 
     touch test.txt(file name) --> creates a empty file
@@ -123,6 +125,8 @@ copy/rename/move operations:
 
     mv newdir /tmp ---> moves newdir to /tmp path
 
+---
+
 ##Permissions
 
 Observe the output of ls:
@@ -136,12 +140,16 @@ drwxrwxr-x 2 manifoldailearning manifoldailearning 4096 Nov 7 23:38 testdir
     (1st value)manifoldailearning --> owner of the file/directory
     (2nd value)manifoldailearning --> group who owns file/directory
 
+---
+
 How to update the owner & group for a file/dir -
 
     chown ( change owner ) is the command to update the owners of dir/file
     note: note that you need to have previliges to update the permissions for a file/directory
 
     Syntax: chown owner:group filename/dirname
+
+---
 
 How to update the read,write & execute permissions for a file/dir
 
@@ -173,7 +181,7 @@ How to update the read,write & execute permissions for a file/dir
     	chmod 764 file/dir -- rwx for root, rw for owner, r for others
     	chmod 755 fire/dir -- rwx for root, rw for owner, rw for others
 
-##REFEREnCE
+## ##REFEREnCE
 
 YOUTUBE
 
@@ -543,7 +551,7 @@ The 3 types of Operating Systems commonly used nowadays are:
 
 - There are many reasons why people utilize virtualization in computing. To desktop users, the most common use is to be able to run applications meant for a different operating system without having to switch computers or reboot into a different system. For administrators of servers, virtualization also offers the ability to run different operating systems, but perhaps, more importantly, it offers a way to segment a large system into many smaller parts, allowing the server to be used more efficiently by a number of different users or applications with different needs. It also allows for isolation, keeping programs running inside of a virtual machine safe from the processes taking place in another virtual machine on the same host.
 
-![Virtualization](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/linux-virtualization.png)
+![Virtualization](https://github.com/sundaramawasthi/OS-LINUX-CONCEPT-FOR-DEVOPS/blob/main/linux-virtualization.png)
 
 - How does virtualization work?
 

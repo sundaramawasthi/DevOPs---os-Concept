@@ -90,8 +90,6 @@ The 3 types of Operating Systems commonly used nowadays are:
 
 - The primary boot loader that resides in the MBR is a 512-byte image containing both program code and a small partition table (see Figure 2). The first 446 bytes are the primary boot loader, which contains both executable code and error message text. The next sixty-four bytes are the partition table, which contains a record for each of four partitions (sixteen bytes each). The MBR ends with two bytes that are defined as the magic number (0xAA55). The magic number serves as a validation check of the MB
 
-![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/1st_stage_bootloader.gif)
-
 - The job of the primary boot loader is to find and load the secondary boot loader (stage 2). It does this by looking through the partition table for an active partition. When it finds an active partition, it scans the remaining partitions in the table to ensure that they’re all inactive. When this is verified, the active partition’s boot record is read from the device into RAM and executed.
 
 ### Stage 2 boot loader

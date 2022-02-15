@@ -126,6 +126,7 @@ copy/rename/move operations:
 ##Permissions
 
 Observe the output of ls:
+
 drwxrwxr-x 2 manifoldailearning manifoldailearning 4096 Nov 7 23:38 testdir
 -rw-rw-r-- 1 manifoldailearning manifoldailearning 126 Nov 7 23:37 abc.txt
 -rw-rw-r-- 1 manifoldailearning manifoldailearning 126 Nov 7 23:38 one.txt
@@ -162,10 +163,10 @@ How to update the read,write & execute permissions for a file/dir
     	- | rwx  | rwx  | rwx
     	- | 421  | 421  | 421
 
-    	to update the permissions we can sum 421
-    	if super user needs to have read,write & exeute give 7
-    	if the owner need to read & write give 6
-    	if other need to have only read give 4
+    	To update the permissions we can sum 421
+    	If super user needs to have read,write & exeute give 7
+    	If the owner need to read & write give 6
+    	If other need to have only read give 4
 
 
     	chmod 777 file/dir -- rwx for root, rwx for owner, rwx for others
@@ -175,6 +176,8 @@ How to update the read,write & execute permissions for a file/dir
 ##REFEREnCE
 
 YOUTUBE
+
+---
 
 ## Operating System
 
@@ -652,5 +655,7 @@ The 3 types of Operating Systems commonly used nowadays are:
   - Rapid elasticity : Successful resource allocation requires elasticity. Resources must be assigned accurately and quickly with the ability to absorb significant increases and decreases in demand without service interruption or quality degradation.
 
   - Measured service : Following the utility model, cloud computing services are measured and metered. This measurement allows the service provider (and consumer) to track usage and gauge costs according to their demand on resources.
+
+---
 
     THANKYOU FOR READING ...

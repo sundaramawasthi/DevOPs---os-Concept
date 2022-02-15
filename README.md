@@ -90,14 +90,15 @@
     less test.txt --> open the file on terminal & can be read line by line (use arrows to scroll up & down)
 
     				  To comeout need to press 'q' on the key board
+
     vi test.txt --> Visual Editor
-    				-This opens the file in read only mode
-    				-To edit the file, press 'i' on keyboard for INSERT mode & then you can write anything
-    				-once the text is entered, press 'ESC' on keyboard to return back on readonly mode
-    				-press ':wq' on keyboard -- to save & come out of the file
-    				-press ':q' on keyboard -- to come out of the file without saving
-    				-press ':wq!' on keyboard -- to save forcefully & come out of the file
-    				-press ':q!' on keyboard -- to come out of the file forcefully without saving
+    		-This opens the file in read only mode
+    		-To edit the file, press 'i' on keyboard for INSERT mode & then you can write anything
+    		-once the text is entered, press 'ESC' on keyboard to return back on readonly mode
+    		-press ':wq' on keyboard -- to save & come out of the file
+    		-press ':q' on keyboard -- to come out of the file without saving
+    		-press ':wq!' on keyboard -- to save forcefully & come out of the file
+    		-press ':q!' on keyboard -- to come out of the file forcefully without saving
 
     rm test.txt --> To remove a file
 
@@ -151,9 +152,9 @@ How to update the read,write & execute permissions for a file/dir
     	r--    ---> means read only permissions for others ( whoever login to the machine )
 
 
-    	r  -- Permission to read the file.
-    	w  -- Permission to write (or delete) the file.
-    	x  -- Permission to execute the file, or, in the case of a directory, search it.
+    	r  --> Permission to read the file.
+    	w  --> Permission to write (or delete) the file.
+    	x  --> Permission to execute the file, or, in the case of a directory, search it.
 
     chmod ( change mode ) is the command to update the read/write/execute permissions for a file/directory
     	r = 4, w = 2, x = 1

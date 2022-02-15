@@ -2,7 +2,8 @@
 
 ---
 
-- [LINUX Command for DevOPS](#linux command) -[Directory operation](#directory)
+- [LINUX Command for DevOPS](#linux) -[Directory operation](#directory) -[File operation](#File) -[File/Directory permissions](#Permissions)
+
 - [OS Concepts for DevOps](#os-concepts-for-devops)
 - [Operating System](#operating-system)
 - [Boot Process](#boot-process)
@@ -50,9 +51,8 @@
 Directory operation
 File operation
 file/directory permission
-perform basic operation
 
-##Directory
+##directory
 
 sudo - super user do
 
@@ -68,7 +68,7 @@ sudo - super user do
     ~ --> Home directory
     mkdir -p folder/subfolder/subfolder2 --> create parent and child directory
 
-##File operations:
+##File
 
     touch test.txt --> creates a empty file
     ls -l --> lists the contents in current directory
@@ -103,7 +103,8 @@ copy/rename/move operations:
     mv testdir newdir -- renames testdir to newdir in crrent path
     mv newdir /tmp --- moves newdir to /tmp path
 
-##File/Directory permissions:
+##Permissions
+
 Observe the output of ls:
 drwxrwxr-x 2 manifoldailearning manifoldailearning 4096 Nov 7 23:38 testdir
 -rw-rw-r-- 1 manifoldailearning manifoldailearning 126 Nov 7 23:37 abc.txt
@@ -120,7 +121,7 @@ drwxrwxr-x 2 manifoldailearning manifoldailearning 4096 Nov 7 23:38 testdir
     Syntax: chown owner:group filename/dirname
     chown murthy:development filename/dirname --> updates the owner & group of the file/directory to murthy & development
 
-    ##how to update the read,write & execute permissions for a file/dir
+    how to update the read,write & execute permissions for a file/dir
 
     	How to decode the Read/Write/Execute Permission terminology:
     	-/d    ---> denotes if it is a file or directory ( - means file / d means directory )
